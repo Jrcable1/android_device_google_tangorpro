@@ -12,6 +12,9 @@ $(call inherit-product, vendor/alpha/config/common_full_tablet.mk)
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
+# Google Face Unlock
+$(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
+
 # Inherit device configuration
 DEVICE_CODENAME := tangorpro
 DEVICE_PATH := device/google/tangorpro
