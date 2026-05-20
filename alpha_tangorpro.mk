@@ -9,6 +9,9 @@ DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 # Inherit some common stuff
 $(call inherit-product, vendor/alpha/config/common_full_tablet.mk)
 
+# setup dalvik vm configs.
+$(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
+
 # Inherit device configuration
 DEVICE_CODENAME := tangorpro
 DEVICE_PATH := device/google/tangorpro
