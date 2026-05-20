@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 # Inherit some common stuff
 $(call inherit-product, vendor/alpha/config/common_full_tablet.mk)
 
