@@ -21,9 +21,6 @@ include device/google/gs201/common.mk
 # PixelParts
 -include packages/apps/PixelParts/device.mk
 
-# GMS
-WITH_GMS_COMMS_SUITE := false
-
 # Lights HAL
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.tangorpro
