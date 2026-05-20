@@ -5,4 +5,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_tangorpro.mk \
-    $(LOCAL_DIR)/lineage_tangorpro.mk
+    $(LOCAL_DIR)/alpha_tangorpro.mk
