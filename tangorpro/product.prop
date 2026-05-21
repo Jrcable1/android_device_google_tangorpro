@@ -11,7 +11,6 @@ bluetooth.profile.mcp.server.enabled?=true
 bluetooth.profile.pbap.server.enabled=false
 bluetooth.profile.sap.server.enabled=false
 bluetooth.profile.vcp.controller.enabled?=true
-persist.bluetooth.bqr.event_mask=94
 persist.bluetooth.firmware.selection=BTFW.hcd
 persist.bluetooth.leaudio.toggle_visible=false
 persist.bluetooth.opus.enabled=true
